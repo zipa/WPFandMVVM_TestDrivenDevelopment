@@ -1,7 +1,7 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
@@ -21,16 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\FriendStorage.DataAccess\FriendStorage.DataAccess.csproj" />
     <ProjectReference Include="..\FriendStorage.Model\FriendStorage.Model.csproj" />
     <ProjectReference Include="..\FriendStorage.UI\FriendStorage.UI.csproj" />
   </ItemGroup>
-
-  <ItemGroup>
-    <None Update="xunit.runner.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-
-  <ProjectExtensions><VisualStudio><UserProperties xunit_1runner_1json__JsonSchema="https://xunit.github.io/schema/v2.1-rc1/xunit.runner.schema.json" /></VisualStudio></ProjectExtensions>
 
 </Project>

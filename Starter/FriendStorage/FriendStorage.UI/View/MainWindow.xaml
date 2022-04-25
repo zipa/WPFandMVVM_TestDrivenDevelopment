@@ -5,7 +5,7 @@
         Title="FriendStorage" FontSize="{StaticResource DefaultFontSize}"
         MinHeight="650" MinWidth="900" Height="650" Width="920"
         WindowStartupLocation="CenterScreen"
-        Background="Black" Icon="..\FriendStorageIcon.png">
+        Background="Black">
   <Grid>
     <Grid.ColumnDefinitions>
       <ColumnDefinition Width="200"/>
