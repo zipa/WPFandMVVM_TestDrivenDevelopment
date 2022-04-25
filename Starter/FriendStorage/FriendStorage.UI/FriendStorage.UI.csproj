@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FriendStorage.DataAccess\FriendStorage.DataAccess.csproj" />
     <ProjectReference Include="..\FriendStorage.Model\FriendStorage.Model.csproj" />
   </ItemGroup>
